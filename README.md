@@ -26,7 +26,7 @@ JavaFX es un modelo puramente orientado a objetos. Cada elemento de la interfaz 
 
 La estructura visual de una aplicación en JavaFX sigue un orden estricto de contención. A continuación, se muestra cómo se relacionan los componentes:
 
-![img_1.png](img_1.png)
+![img.png](img.png)
 ---
 ## ¿Qué ventaja tiene usar una Clase Estudiante en lugar de manejar todo directamente desde los TextField? 
 La principal ventaja es la separación de responsabilidades. Al extraer los datos hacia un objeto Estudiante, se separa la lógica de negocio de la interfaz gráfica. Esto hace que el código sea más escalable y mantenible; si posteriormente necesitas almacenar al estudiante en una base de datos o validar su formato, trabajas directamente con un objeto estructurado en lugar de cadenas de texto dispersas vinculadas únicamente a la interfaz.
@@ -35,3 +35,6 @@ La principal ventaja es la separación de responsabilidades. Al extraer los dato
 * **Encapsulamiento:** Ocultar los atributos nombre y matricula (usando private) y exponerlos de forma segura únicamente a través de los métodos getters.
 
 * **Instanciación:** El uso de la palabra reservada new para generar un objeto concreto (Estudiante estudiante = new Estudiante(...)) a partir de una plantilla o clase. (También es correcto mencionar Herencia, ya que la clase principal hereda de Application).
+
+## Dato importante
+Para el desarrollo de esta actividad me ayude de Gemini IA, para entender de mejor manera cada parte del codigo y resolver dudas que me iban surgiendo.
